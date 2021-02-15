@@ -65,7 +65,6 @@ namespace Trainee.Web.Controllers
             if (result != null)
                 return View(clienteViewModel);
 
-            ViewBag.Sucesso = "Produto cadastrado com sucesso!";
 
             return RedirectToAction("Index");
         }
@@ -81,4 +80,4 @@ namespace Trainee.Web.Controllers
         }
     }
 }
-}
+

@@ -39,7 +39,6 @@ namespace Trainee.Web.Controllers
             if (result != null)
                 return View(produtoViewModel);
 
-            ViewBag.Sucesso = "Produto cadastrado com sucesso!";
 
             return RedirectToAction("Index");
         }
@@ -66,7 +65,6 @@ namespace Trainee.Web.Controllers
             if (result != null)
                 return View(produtoViewModel);
 
-            ViewBag.Sucesso = "Produto cadastrado com sucesso!";
 
             return RedirectToAction("Index");
         }

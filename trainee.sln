@@ -17,17 +17,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.Domain", "Trainee.Domain\Trainee.Domain.csproj", "{B8E36A7F-8C54-4099-95BB-9E8FCBC93285}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.Application", "Trainee.Application\Trainee.Application.csproj", "{E46839C4-6890-4C8A-A686-50FAC91AEF0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.Application", "Trainee.Application\Trainee.Application.csproj", "{E46839C4-6890-4C8A-A686-50FAC91AEF0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.Infra.Data", "Trainee.Infra.Data\Trainee.Infra.Data.csproj", "{9CD8DC46-13C7-46E8-8592-0AC317703322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.Infra.Data", "Trainee.Infra.Data\Trainee.Infra.Data.csproj", "{9CD8DC46-13C7-46E8-8592-0AC317703322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.Service.Api", "Trainee.Service.Api\Trainee.Service.Api.csproj", "{F0B8099A-5CB3-4111-BDC2-6DAAE4CB0EE1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.Service.Api", "Trainee.Service.Api\Trainee.Service.Api.csproj", "{F0B8099A-5CB3-4111-BDC2-6DAAE4CB0EE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.CrossCutting", "Trainee.CrossCutting\Trainee.CrossCutting.csproj", "{3EB579EE-572D-43B5-968A-AF6A9CE15583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.CrossCutting", "Trainee.CrossCutting\Trainee.CrossCutting.csproj", "{3EB579EE-572D-43B5-968A-AF6A9CE15583}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Presentation", "5 - Presentation", "{C50A709B-F470-43A3-9DB5-746932BB1870}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.Web", "Trainee.Web\Trainee.Web.csproj", "{975ED884-D350-4136-A63A-1B4C4109AE38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trainee.Web", "Trainee.Web\Trainee.Web.csproj", "{975ED884-D350-4136-A63A-1B4C4109AE38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Test", "6 - Test", "{850A4A68-4B3A-49A6-9E63-A2182FD0095F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trainee.Test", "Trainee.Test\Trainee.Test.csproj", "{38B499C7-68A3-46E4-8169-7E55B5E6AED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +63,10 @@ Global
 		{975ED884-D350-4136-A63A-1B4C4109AE38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{975ED884-D350-4136-A63A-1B4C4109AE38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{975ED884-D350-4136-A63A-1B4C4109AE38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38B499C7-68A3-46E4-8169-7E55B5E6AED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B499C7-68A3-46E4-8169-7E55B5E6AED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B499C7-68A3-46E4-8169-7E55B5E6AED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B499C7-68A3-46E4-8169-7E55B5E6AED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +80,7 @@ Global
 		{F0B8099A-5CB3-4111-BDC2-6DAAE4CB0EE1} = {D7DCC083-8E21-4C4B-AD1D-495013DB0AB1}
 		{3EB579EE-572D-43B5-968A-AF6A9CE15583} = {B76BE964-ACA3-4920-B908-EF60AE88C133}
 		{975ED884-D350-4136-A63A-1B4C4109AE38} = {C50A709B-F470-43A3-9DB5-746932BB1870}
+		{38B499C7-68A3-46E4-8169-7E55B5E6AED5} = {850A4A68-4B3A-49A6-9E63-A2182FD0095F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {570BF297-DB28-4377-8600-F6E5ECB9EAE8}
